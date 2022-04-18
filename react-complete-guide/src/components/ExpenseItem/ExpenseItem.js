@@ -1,3 +1,4 @@
+import React from "react";
 import ExpenseDate from "../ExpenseDate/ExpenseDate";
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
@@ -13,4 +14,5 @@ function ExpenseItem(props) {
     </Card>
   );
 }
+
 export default ExpenseItem;
